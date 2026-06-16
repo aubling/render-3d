@@ -1,0 +1,53 @@
+{
+  "project_id": 101,
+  "units": [
+    {
+      "unit_type": "Floor",
+      "width": 800,
+      "height": 720,
+      "depth": 550,
+      "color": "Pearl Grey",
+      "doors": 2
+    },
+    {
+      "unit_type": "Corner Pantry 900",
+      "width": 900,
+      "height": 2400,
+      "depth": 600,
+      "color": "Pearl Grey",
+      "doors": 1
+    },
+    {
+      "unit_type": "Tall",
+      "width": 600,
+      "height": 2400,
+      "depth": 600,
+      "color": "Pearl Grey",
+      "doors": 1
+    },
+    {
+      "unit_type": "Floor Drawers",
+      "width": 800,
+      "height": 720,
+      "depth": 550,
+      "color": "Pearl Grey",
+      "doors": 2
+    },
+    {
+      "unit_type": "Floor Corner",
+      "width": 900,
+      "height": 720,
+      "depth": 550,
+      "color": "Pearl Grey",
+      "doors": 2
+    },
+    {
+      "unit_type": "Floor",
+      "width": 800,
+      "height": 720,
+      "depth": 550,
+      "color": "Pearl Grey",
+      "doors": 2
+    }
+  ]
+}
