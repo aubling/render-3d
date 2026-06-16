@@ -1,11 +1,15 @@
-# Blender build v2
+# Blender build v3
 FROM linuxserver/blender:4.1.1
 
 WORKDIR /app
 
 COPY requirements.txt .
 
-RUN python3 -m ensurepip --upgrade || true
+RUN apt-get update \
+    && apt-get install -y python3-pip \
+    --allow-releaseinfo-change \
+    && rm -rf /var/lib/apt/lists/*
+
 RUN python3 -m pip install --no-cache-dir -r requirements.txt
 
 COPY . .
