@@ -1,13 +1,7 @@
-# Kitchen 3D Render API
-
-Railway-ready FastAPI service.
+# Kitchen Blender Render API
 
 Endpoint: `POST /render-3d`
 
 Returns `image/png`.
 
-Start command:
-
-```bash
-uvicorn main:app --host 0.0.0.0 --port $PORT
-```
+Deploy on Railway from GitHub. This version uses Blender and includes countertops, doors, drawers, handles, kickplates, walls, floor and lights.
