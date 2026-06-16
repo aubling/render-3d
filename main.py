@@ -49,3 +49,4 @@ def render_3d(data: RenderRequest):
             raise HTTPException(status_code=500, detail="PNG was not created")
 
         return Response(content=output_file.read_bytes(), media_type="image/png")
+
