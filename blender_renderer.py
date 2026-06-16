@@ -246,8 +246,10 @@ def render(data, out):
             pos, last_base = base_unit(unit, idx, pos, direction)
 
     light_camera()
-    bpy.context.scene.render.engine = "CYCLES"
-    bpy.context.scene.cycles.samples = 64
+    #bpy.context.scene.render.engine = "CYCLES"
+    #bpy.context.scene.cycles.samples = 64
+    bpy.context.scene.render.engine = "BLENDER_EEVEE_NEXT"
+    bpy.context.scene.cycles.samples = 16
     bpy.context.scene.render.resolution_x = 1600
     bpy.context.scene.render.resolution_y = 1100
     bpy.context.scene.render.filepath = str(out)
